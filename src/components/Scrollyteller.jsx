@@ -68,8 +68,9 @@ export default class Narrative extends Component {
     this.setState({ progress });
   }
 
+  //localhost src: var src = "./src/components/assets/images/" + data + ".png";
   update = data => {
-    var src = "./src/components/assets/images/" + data + ".png";
+    var src = "https://github.com/andre30000/a_hard_rain/tree/main/src/components/assets/images/" + data + ".png";
     this.setState({src});
   }
 
