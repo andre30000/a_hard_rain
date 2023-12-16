@@ -1,0 +1,141 @@
+.center{ 
+margin: auto;
+}
+
+img {
+    max-width: 500px;
+  border-radius: 20px;
+  }
+  
+  .main {
+    padding: 10vh 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .graphic {
+    flex-basis: 50%;
+    position: sticky;
+    top: 15vh;
+    width: 100%;
+    height: 75vh;
+    align-self: flex-start;
+    z-index: -2;
+    
+  }
+  
+  .data {
+    font-size: 5rem;
+    text-align: center;
+  }
+  
+  .scroller {
+    flex-basis: 30%;
+  }
+  
+  .card-text {
+    font-size: 26px !important;
+    line-height: 3;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  .step {
+    /* margin-right: 50px; */
+    padding-top: 200px;
+    padding-bottom: 200px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    font-size: 20px;
+  }
+  
+  .card {
+    /* box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.5); */
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    /* padding: 10%; */
+  }
+  
+  .blurb {
+    margin: 5%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 16px;
+    min-height: 20%;
+    text-shadow: 2px 2px #ff0d0d;
+  }
+  .no-text-shadow {
+    text-shadow: none;
+  }
+
+  .blurb-container {
+    /* margin: auto; */
+    margin-top: 3%;
+    text-align: center;
+    font-size: 16px;
+    min-height: 20%;
+    background-image: linear-gradient(rgba(72, 0, 255, 0.5), rgba(31, 21, 21, 0.5)), url('./src/components/assets/images/Album.jpg');
+    background-position:center;
+    border-radius: 20px;;
+  }
+  
+  .desc {
+    margin-left: 5px;
+    margin-right: 5px;
+    text-shadow: 2px 2px #ff0d0d;
+    font-size: 20px;
+  }
+  
+  .btn {
+    color: #575757;
+  }
+  
+  .card-text-s {
+    padding: 5%;
+    font-size: 16px !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    .main {
+      flex-direction: column;
+    }
+
+    img{
+      width: 90%;
+    }
+  
+    .graphic, .scroller {
+      flex-basis: 100%;
+    }
+  
+    .step {
+      font-size: 16px;
+      padding-top: 200px;
+      padding-bottom: 200px;
+    }
+  
+    .card-text {
+      font-size: 18px !important;
+    }
+  
+    .card {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .blurb {
+      font-size: 14px;
+    }
+  
+    .desc {
+      font-size: 18px;
+    }
+  
+    .card-text-s {
+      font-size: 14px !important;
+    }
+  }
