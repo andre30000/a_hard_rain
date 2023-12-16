@@ -78,7 +78,10 @@ export default class Narrative extends Component {
   render() {
     const { data } = this.state;
     console.log(data)
-    const src = './src/components/assets/images/' + data + '.png';
+    // production src
+    const src = 'https://github.com/andre30000/a_hard_rain/tree/main/src/components/assets/images/' + data + '.png';
+    //below is local src
+    // const src = './src/components/assets/images/' + data + '.png';
     console.log(src)
 
     return (
