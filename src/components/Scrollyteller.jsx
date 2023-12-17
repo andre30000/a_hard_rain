@@ -17,11 +17,12 @@ const introBlurb = (
     <br></br>
     
     <h1>A HARD RAINS A-GONNA FALL</h1>
-    <p> Bob Dylan's "A Hard Rain's a-Gonna Fall" was featured on the artist's 1983 album titled, <i>The Freewhelin' Bob Dylan.</i> Each line or phrase of the lyrics evokes imagery of a young man's experiences. </p>
+    <p> Bob Dylan's "A Hard Rain's a-Gonna Fall" was featured on the artist's 1963 album titled, <i>The Freewheelin' Bob Dylan.</i> Each line or phrase of the lyrics evokes imagery of a young man's experiences in life. </p>
     <p> The standalone ideas from each phrase were fed into various AI imagery software to visualize the scene of the lyric.</p>
     <p>They are presented below in a scroll story.</p>
     <p>Click on the "X" below the lyric for more information regarding the AI engine and exact prompt used.</p>
     <p>Some lyrics were changed from their exact wording on the album in order for the AI to create a more compelling image.</p>
+    <p>Note: Dall-E 3 re-interprets the lyric input into a more descriptive prompt.</p>
     <p>All creative credit belongs to Bob Dylan - Copyright © 1963 by Warner Bros. Inc.; renewed 1991 by Special Rider Music</p>
     <p>and the requisite AI companies.</p>
     <p>
