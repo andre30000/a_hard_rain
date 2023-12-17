@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.css';
-import Scrollyteller from './components/Scrollyteller'
 import Narrative from './components/Scrollyteller';
+import imageAssets from './components/assets/imageAssets'
 
 function App() {
   return (
-    // <Scrollyteller />
     <Narrative />
   );
 }

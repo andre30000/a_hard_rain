@@ -15,7 +15,7 @@ const StanzaMapper = ( { verse, stateprop, src, onStepEnter, onStepExit, onStepP
         <div className='main'>
             <div className='graphic'>
              <Card>
-                <Card.Img variant="top" src={`./src/components/assets/images/${stateprop}.png`} />
+                <Card.Img variant="top" src={src} />
                 {/* <p>test {src}</p> */}
              </Card>
             </div>

@@ -7,6 +7,7 @@ import { Scrollama, Step } from 'react-scrollama';
 import './styles.css'
 import { narration } from "./assets/data/narration"
 import StanzaMapper from './StanzaMapper';
+import imageAssets from './assets/imageAssets'
 
 
 
@@ -68,9 +69,8 @@ export default class Narrative extends Component {
     this.setState({ progress });
   }
 
-  //localhost src: var src = "./src/components/assets/images/" + data + ".png";
   update = data => {
-    var src = "https://github.com/andre30000/a_hard_rain/tree/main/src/components/assets/images/" + data + ".png";
+    var src = "./src/components/assets/images/" + data + ".png";
     this.setState({src});
   }
 
@@ -79,10 +79,8 @@ export default class Narrative extends Component {
   render() {
     const { data } = this.state;
     console.log(data)
-    // production src
-    const src = 'https://github.com/andre30000/a_hard_rain/tree/main/src/components/assets/images/' + data + '.png';
-    //below is local src
-    // const src = './src/components/assets/images/' + data + '.png';
+    const src = './src/components/assets/images/' + data + '.png';
+    const imageSrc = imageAssets[data]
     console.log(src)
 
     return (
@@ -98,7 +96,7 @@ export default class Narrative extends Component {
             </div>
           </div>
 
-          <StanzaMapper verse={narration} stateprop={this.state.data} src={src} onStepEnter={this.onStepEnter} onStepExit={this.onStepExit} onStepProgress={this.onStepProgress} />
+          <StanzaMapper verse={narration} stateprop={this.state.data} src={imageSrc} onStepEnter={this.onStepEnter} onStepExit={this.onStepExit} onStepProgress={this.onStepProgress} />
           {/* <StanzaMapper verse={verse1test} stateprop={this.state.data} src={src} onStepEnter={this.onStepEnter} onStepExit={this.onStepExit} onStepProgress={this.onStepProgress} />
           <h1 className='break'>break</h1>
               <Card>
