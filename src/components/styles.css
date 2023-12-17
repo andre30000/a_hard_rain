@@ -78,7 +78,7 @@ img {
     text-align: center;
     font-size: 16px;
     min-height: 20%;
-    background-image: linear-gradient(rgba(72, 0, 255, 0.5), rgba(31, 21, 21, 0.5)), url('./src/components/assets/images/Album.jpg');
+    background-image: linear-gradient(rgba(72, 0, 255, 0.5), rgba(31, 21, 21, 0.5)), url('../../public/Album.jpg');
     background-position:center;
     border-radius: 20px;;
   }
